@@ -3,16 +3,19 @@
 This is a sample project created for candidate coding skills
 ## Rules
 
-In the project directory, you can run:
+In the project directory:
 
-### `Create branch with your name`
+### `Branch Rule`
+
+Create Branch with your name
+Perform task and push code to your branch 
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm test`
