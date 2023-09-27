@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Countdown />
     </div>
   );
 }
 
 export default App;
+
+const Countdown = () => {
+  return (
+    <div className="container">
+      <div>
+        Countdown:
+        <span>{" place for countdown"}</span>
+      </div>
+
+      <InputCount />
+
+      <PauseResumeButton />
+
+      <CancelButton />
+    </div>
+  );
+};
+
+const InputCount = () => {
+  return <input placeholder="Please set time" />;
+};
+
+const PauseResumeButton = () => {
+  return <button>Start</button>;
+};
+
+const CancelButton = () => {
+  return <button>Cancel</button>;
+};
